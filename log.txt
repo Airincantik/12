@@ -1,0 +1,10 @@
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}
+{"latitude":"-7.798784","longitude":"110.3724544","participant_id":"1"}

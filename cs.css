@@ -1,0 +1,138 @@
+/* CSS untuk mengatur layout secara umum */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Sidebar specific */
+#sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Styling for the icon */
+.active-participant-icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    #sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Mengatur gambar agar responsif */
+img {
+    max-width: 100%;
+    /* Gambar tidak akan lebih lebar dari kontainer */
+    height: auto;
+    /* Menjaga rasio aspek gambar tetap */
+}
+
+/* Untuk gambar dalam gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.gallery-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Styling untuk elemen jika tidak ada gambar */
+.no-data {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
